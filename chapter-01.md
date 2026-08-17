@@ -1,4 +1,11 @@
 # Chapter 1
+
+* [Trade-Offs in Data Systems Architecture](#trade-offs-in-data-systems-architecture)
+  + [1.1 Operational (OLTP) vs. Analytical (OLAP) Systems](#11-operational-oltp-vs-analytical-olap-systems)
+  + [1.2 Cloud Native vs. Self-Hosted Infrastructure](#12-cloud-native-vs-self-hosted-infrastructure)
+  + [1.3 Distributed vs. Single-Node Systems](#13-distributed-vs-single-node-systems)
+  + [1.4 Ethics, Privacy, and Legal Compliance](#14-ethics-privacy-and-legal-compliance)
+
 ## Trade-Offs in Data Systems Architecture
 
 A core theme in designing data systems is understanding trade-offs; many architectural questions lack a single "right" answer and instead present multiple possibilities, each with distinct pros and cons.
