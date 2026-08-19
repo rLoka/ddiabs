@@ -12,18 +12,22 @@ jobs:
     name: Build PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # Updated to v4 to fix the Node 20 deprecation warning
+      - uses: actions/checkout@v4
 
-      # Install md-to-pdf globally on the Ubuntu runner
       - name: Install PDF Generator
         run: npm i -g md-to-pdf
 
-      # Run the tool and move PDFs to a dedicated folder
       - name: Build PDFs
         run: |
-          md-to-pdf ./**/*.md
+          # 1. Find all Markdown files and convert them to PDF
+          find . -type f -name "*.md" -exec md-to-pdf {} \;
+          
+          # 2. Create the destination folder
           mkdir -p pdfs
-          mv ./**/*.pdf pdfs/
+          
+          # 3. Find all generated PDFs and move them to the folder
+          find . -type f -name "*.pdf" -exec mv {} pdfs/ \;
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
