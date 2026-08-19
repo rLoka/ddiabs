@@ -3,6 +3,8 @@
 [![Book](https://img.shields.io/badge/Book-Designing%20Data--Intensive%20Applications-blue)](https://dataintensive.net/)
 [![Author](https://img.shields.io/badge/Author-Martin%20Kleppmann-lightgrey)](#)
 
+![Book Cover](./images/book_cover.jpeg "Book Cover")
+
 ## About This Repository
 
 This repository contains my personal notes, summaries, and architectural diagrams for the book **[Designing Data-Intensive Applications](https://dataintensive.net/)** by Martin Kleppmann & Chris Riccomini. 
