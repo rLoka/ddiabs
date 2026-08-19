@@ -16,8 +16,5 @@ The goal of these notes is to distill the core concepts, trade-offs, and archite
 Currently adding notes as I progress through the book. Links will become active as each chapter's notes are uploaded.
 * [Chapter 1: Trade-offs in Data Systems Architecture](chapter-01.md)
 
-## PDFs
-Find chapter summaries in PDF form in [./pdfs](./pdfs) directory.
-
 ---
 *Note: If you are viewing this on GitHub, click on the chapter links above to read the specific notes and view the architectural Mermaid diagrams.*
