@@ -1,4 +1,4 @@
-# Designing Data-Intensive Applications (DDIA) - Book Notes & Summaries
+# Designing Data-Intensive Applications - Book Notes & Summaries
 
 [![Book](https://img.shields.io/badge/Book-Designing%20Data--Intensive%20Applications-blue)](https://dataintensive.net/)
 [![Author](https://img.shields.io/badge/Author-Martin%20Kleppmann-lightgrey)](#)
